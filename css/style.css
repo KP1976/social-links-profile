@@ -218,7 +218,16 @@ body {
 }
 
 .card__user {
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: var(--space-400);
+}
+
+.card__image {
+  border-radius: 100%;
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+  width: 5.625rem;
 }
