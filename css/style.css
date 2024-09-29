@@ -210,3 +210,15 @@ body {
   max-width: 24rem;
   padding: var(--space-300);
 }
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-350);
+}
+
+.card__user {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-400);
+}
