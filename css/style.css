@@ -211,16 +211,19 @@ body {
   padding: var(--space-300);
 }
 
-.card__header {
+.card__header,
+.card__user,
+.card__info {
   display: flex;
   flex-direction: column;
+}
+
+.card__header {
   gap: var(--space-350);
 }
 
 .card__user {
   align-items: center;
-  display: flex;
-  flex-direction: column;
   gap: var(--space-400);
 }
 
@@ -230,4 +233,8 @@ body {
   object-fit: cover;
   max-width: 100%;
   width: 5.625rem;
+}
+
+.card__info {
+  gap: var(--space-200);
 }
