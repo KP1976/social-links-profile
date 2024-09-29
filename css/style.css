@@ -238,3 +238,18 @@ body {
 .card__info {
   gap: var(--space-200);
 }
+
+.card__username,
+.card__useraddress {
+  font-weight: 600;
+  letter-spacing: var(--letter-spacing-01px);
+}
+
+.card__username {
+  font-size: var(--font-size-300);
+}
+
+.card__useraddress {
+  color: var(--green);
+  font-size: var(--font-size-175);
+}
