@@ -287,11 +287,19 @@ main {
 .social-links__item:hover {
   background-color: var(--green);
   color: var(--gray-700);
+  transition: color 0.2s ease-in-out;
 }
 
 .social-links__link {
   align-self: center;
+  display: block;
   font-size: var(--font-size-175);
   font-weight: 800;
   line-height: 2.8125rem;
+}
+
+@media screen and (min-width: 24rem) {
+  .card {
+    padding: var(--space-500);
+  }
 }
